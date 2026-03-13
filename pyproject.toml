@@ -1,0 +1,10 @@
+[project]
+name = "tmy3-solar"
+version = "0.1.0"
+description = "Read hourly solar weather data from TMY3 CSV files, compute weekly average GHI and DNI for each station, output to JSON."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.1",
+]
